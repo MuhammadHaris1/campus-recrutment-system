@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  float: left;
+}
+
+.App-header {
+  /* background-image: url('Assets/campus.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 200px;
+  padding: 20px;
+  /* display: inline; */
+
+}
+
+button{
+   padding: 20px;
+   font-size: 15px;
+   margin: 15px;
+   margin-top: 50px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px
+}
+
+button:active{
+  background-color: blueviolet
+}
+
+
+.App-title {
+  /* font-size: 1.5em; */
+  margin: 0px;
+}
+
+.App-intro {
+  font-size: large;
+}
+/* 
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+/* 
+.login{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px
+
+} */
+.login h1{
+  background-color: rgb(12, 168, 241);
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: aliceblue
+}
+
+.login p{
+  font-size: 25px
+}
+
+.login input{
+  padding: 10px;
+  width: 400px
+}
+
+.current-user  h1{
+  background-color: blue;
+  margin: 10px;
+  padding: 20px
+}
+
+.vaccancy{
+  border: 1px solid black;
+  margin: 10px
+}
+
+.vaccancy h2{
+  font-size: 25px;
+  background-color: beige;
+  padding: 20px;
+  margin-top: -2px
+   /* float: left; */
+}
+.companies{
+  /* border: 1px solid black; */
+  margin: 10px
+}
+.companies h2{
+  border: 1px solid black;
+  background-color: rgb(10, 204, 230);
+  padding: 20px;
+  margin: 10px;
+
+}
+
+/* .footer {
+  background-image: url('Assets/campus.jpg');
+   background-repeat: no-repeat;
+  background-size: cover; 
+} */
